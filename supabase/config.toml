@@ -1,0 +1,13 @@
+project_id = "ifuyugqpetmhjbekpwop"
+
+[functions.polar-webhook]
+verify_jwt = false
+
+[functions.soc-investigate-alert]
+verify_jwt = true
+
+[functions.siem-ingest]
+verify_jwt = false
+
+[functions.siem-heartbeat]
+verify_jwt = false
